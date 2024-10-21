@@ -1,0 +1,98 @@
+td:nth-child(2) {
+    background: url('/images/mesh-gradient (2).png') no-repeat;
+    height: auto;
+}
+
+td:nth-child(1) {
+    
+    background: url('/images/Frame 4.jpg') no-repeat;
+    height: auto;
+}
+table{
+    overflow:visible;
+    width: 800px;
+    height: 400px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: none;
+}
+
+.PlaySpace{
+    font-family: 'Goldman', sans-serif;
+    font-size: 40px;
+    color: rgb(19,27,65);
+    position: absolute;
+    top: 3vh;
+}
+.footer1{
+    font-family: 'newsreader', sans-serif;
+    font-size: 24px;
+    color: rgb(19,27,65);
+    position: absolute;
+    top: 38vh;
+    display: inline-block;
+}
+.footer2{
+    font-family: 'newsreader', sans-serif;
+    font-size: 18px;
+    color: rgb(19,27,65);
+    position: absolute;
+    top: 42vh;
+    display: inline-block;
+   
+}
+.LOG{
+    font-family: 'Allerta Stencil',sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 3vh;
+    left: 15vw;
+}
+.input-box label{
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    left: 20vw;
+}
+
+.input-box input{
+    position: relative;
+    left: 13vw;
+}
+.remember-me label{
+    font-size: 18px;
+    position: absolute;
+    top: 27vh;
+    left: 22vw;
+    color: #ffffff;
+}
+.remember-me input{
+    position:relative;
+    top: 4.75vh;
+    left: 6vw;
+}
+.submit button{
+    position: relative;
+    top: 8vh;
+    left: 6vw;
+    display: inline-block;
+    border-radius: 25%;
+    width: 15%;
+    font-weight: 600;
+    color: #1e266c;
+}
+
+.submit button:hover{
+    background-color: #606bcd;
+}
+.create-account{
+    position: relative;
+    top: 13vh;
+    left: 6vw;
+    display: inline-block;
+    color: #ffffff;
+}

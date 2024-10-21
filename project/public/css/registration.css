@@ -1,0 +1,103 @@
+td:nth-child(2) {
+    background: url('/images/mesh-gradient (2).png') no-repeat;
+    height: auto;
+}
+
+td:nth-child(1) {
+    
+    background: url('/images/Frame 4.jpg') no-repeat;
+    height: auto;
+}
+
+table{
+    overflow:visible;
+    width: 800px;
+    height: auto;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: none;
+}
+.PlaySpace{
+    font-family: 'Goldman', sans-serif;
+    font-size: 43px;
+    color: rgb(19,27,65);
+    position: absolute;
+    top: 0vh;
+}
+.footer1{
+    font-family: 'newsreader', sans-serif;
+    font-size: 24px;
+    color: rgb(19,27,65);
+    position: relative;
+    top: 39vh;
+    font-weight: 700;
+}
+.footer2{
+    font-family: 'newsreader', sans-serif;
+    font-size: 18px;
+    color: rgb(19,27,65);
+    position: relative;
+    top: 39vh;
+    font-weight: 500;
+}
+.REGISTER{
+    font-family: 'Allerta Stencil',sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 0vh;
+    left: 3vw;
+    display:inline-block;
+}
+.input-box label{
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    position: relative;
+    top: 0vh;
+    left: 3vw;
+}
+.input-box input{
+    position: relative;
+    top: 0vh;
+    left: 5vw;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.specialMsg{
+    font-size: 16px;
+    color: rgb(19,27,65);
+    position: relative;
+    top: 0vh;
+    font-weight: 600;
+}
+.checkbox label{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -2vh;
+    left: 5vw;
+    font-weight: 600;
+}
+.checkbox input{
+    position: relative;
+    top: -2vh;
+    left: 4vw;
+}
+.button button{
+    font-size: 18px;
+    position: relative;
+    top: 0vh;
+    left: 22vw;  
+    display: inline-block;  
+    color: #1e266c;
+    border-radius: 25%;
+    width: 15%;
+
+}
+.button button:hover{
+    background-color: #606bcd;
+}
